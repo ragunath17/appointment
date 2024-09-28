@@ -1,0 +1,109 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-card {
+  background-color: #ffffff;
+  min-height: 60vh;
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 15px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  color: #171f46;
+}
+
+.sub-heading {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #b5b7c4;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 40px;
+  width: 40%;
+  border-radius: 5px;
+  border: 1px solid #b5b7c4;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.add-btn {
+  height: 30px;
+  width: 90px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  border: 0px none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+}
+
+.appointment-img {
+  height: 230px;
+  width: 400px;
+}
+
+hr {
+  border: 1px solid #b5b7c4;
+}
+
+.appointments-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.star-button {
+  height: 30px;
+  width: 90px;
+  border-radius: 15px;
+  border: 1px solid #9897f0;
+  color: #9897f0;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.unordered-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
