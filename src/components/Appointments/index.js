@@ -1,6 +1,7 @@
 // Write your code here
 import {Component} from 'react'
 import {format} from 'date-fns'
+import {v4} from 'uuid'
 import AppointmentItem from '../AppointmentItem'
 
 import './index.css'
@@ -25,6 +26,7 @@ class Appointments extends Component {
     event.preventDefault()
     const {titleInput, dateInput} = this.state
     const newAppointment = {
+      id: v4(),
       title: titleInput,
       date: format(new Date(dateInput), 'dd MMMM yyyy, EEEE'),
       isStarred: false,
